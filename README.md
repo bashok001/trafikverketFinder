@@ -10,6 +10,14 @@
 
 
 #### If you want to be notified by WhatsApp
+* Follow the guide here to create a free Twilio account
+  * https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account
+* Verify your whatsapp number by following the link: https://support.twilio.com/hc/en-us/articles/360007721954-Getting-Started-with-Twilio-for-WhatsApp
+* Open `src/main/java/com/trafikverket/finder/Constants.java` file
+  * Replace `WHATSAPP_NUMBER` with your whatsapp number
+  * Replace `WHATSAPP_FROM_NUMBER` with whatsapp number from your twilio sandbox
+  * Replace `TWILIO_ACCOUNT_SID` with SID from your twilio account from your console
+  * Replace `TWILIO_AUTH_TOKEN` with AUTH_TOKEN from your twilio console
 
 #### Must fill out
 * Open `src/main/java/com/trafikverket/finder/Constants.java` file
